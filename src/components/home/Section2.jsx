@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Section2 = () => {
   return (
     <section
@@ -12,27 +14,35 @@ const Section2 = () => {
         <div className="w-full flex gap-5 md:gap-10 md:flex-row flex-col-reverse mt-10 md:mt-[60px]">
           <div className="w-full">
             <p className="text-[1.25rem]">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet.
+              Wonderful Springboard Farms was birthed many years ago but started
+              operations fully in the year 2002. Due to his passion for
+              livestock farming, self-sustenance, entrepreneurship and making
+              impact to mankind, Mr. Abiodun Michael Abiola, who is the founder,
+              with the help of God, singlehandedly started the farm with
+              successful fish farming operations as well as poultry farming (Egg
+              Production) before diversifying to crop production and some other
+              farming practices.
             </p>
-            <button
-              onClick={() => {
-                const element = document.documentElement;
-                element.scrollIntoView({
-                  behavior: "smooth",
-                  block: "end",
-                  inline: "nearest",
-                });
-              }}
-              className="w-fit bg-green-500 border border-green-500 mt-5 hover:bg-white px-8 py-2 rounded-md text-[#003c1a] font-medium text-[.9rem] md:text-[1rem] transition-all duration-300"
-            >
-              GET IN TOUCH
-            </button>
+            <div className="flex gap-3 md:flex-row flex-col">
+              <button
+                onClick={() => {
+                  const element = document.documentElement;
+                  element.scrollIntoView({
+                    behavior: "smooth",
+                    block: "end",
+                    inline: "nearest",
+                  });
+                }}
+                className="w-fit bg-green-500 border border-green-500 mt-5 hover:bg-white px-8 py-2 rounded-md text-[#003c1a] font-medium text-[.9rem] md:text-[1rem] transition-all duration-300"
+              >
+                GET IN TOUCH
+              </button>
+              <Link to={"/about"}>
+                <button className="w-fit bg-green-500 border border-green-500 mt-5 hover:bg-white px-8 py-2 rounded-md text-[#003c1a] font-medium text-[.9rem] md:text-[1rem] transition-all duration-300">
+                  READ MORE
+                </button>
+              </Link>
+            </div>
           </div>
 
           <img

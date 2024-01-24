@@ -18,13 +18,11 @@ const Section3 = () => {
 
           <div className="w-full">
             <p className="text-[1.25rem]">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet.
+              Practicing Agriculture in an excellent way with high sense of
+              integrity and having great and immeasurable positive impacts on
+              mankind globally through our wholesome products and quality
+              services and above all bringing glory to the name of our God
+              because we believe all that we have come from Him.
             </p>
 
             <button

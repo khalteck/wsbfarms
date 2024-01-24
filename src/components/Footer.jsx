@@ -18,6 +18,10 @@ const Footer = () => {
             />
           </li>
           <li className="">WSBFARMS SLOGAN HERE...</li>
+          <li className="mt-3">
+            No. 3, Fatabete Village, Isokan Area, Lagelu Local Government,
+            Ibadan
+          </li>
         </ul>
 
         <ul className="w-full md:w-[250px] flex-col gap-3 md:hidden flex">
@@ -79,7 +83,9 @@ const Footer = () => {
             <a href="tel:+234 808 505 0500">Mob: +234 808 505 0500</a>
           </li>
           <li className="w-[fit-content] cursor-pointer hover:text-green-500">
-            <a href="#">Email: EMAIL HERE</a>
+            <a href="#">
+              Email: abiodun_abiola02@yahoo.com, wsbexcellence@gmail.com
+            </a>
           </li>
           <li
             onClick={() => navigate("/")}
