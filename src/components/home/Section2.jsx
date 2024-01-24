@@ -38,7 +38,7 @@ const Section2 = () => {
           <img
             alt=""
             src="/images/poulty.jpg"
-            className="w-full md:w-1/2 max-w-[700px] h-auto rounded-xl"
+            className="w-full md:w-1/2 max-w-[700px] max-h-[400px] h-auto rounded-xl object-cover"
           />
         </div>
       </div>

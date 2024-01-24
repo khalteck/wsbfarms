@@ -15,14 +15,11 @@ const Header = () => {
       className={`w-full h-[60px] bg-green-50 text-black shadow-md md:h-[80px] flex md:gap-20 lg:gap-[150px] justify-between px-3 lg:px-[200px] items-center transition-all duration-700 fixed top-0 left-0 z-[100]`}
     >
       <Link to="/">
-        <div className="flex gap-2 items-center w-[150px] h-[60px] border-2 border-black">
-          LOGO HERE
-          {/* <img
-            alt=""
-            src="/images/logo.png"
-            className="w-[100px] h-auto rounded-sm md:rounded-b-lg"
-          /> */}
-        </div>
+        <img
+          alt=""
+          src="/images/logo.png"
+          className="w-[50px] md:w-[70px] h-auto rounded-sm md:rounded-b-lg"
+        />
       </Link>
       <div
         onClick={handleClick}

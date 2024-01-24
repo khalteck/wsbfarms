@@ -11,7 +11,7 @@ import Section4 from "../components/home/Section4";
 const Homepage = () => {
   return (
     <>
-      <Maintennance />
+      {/* <Maintennance /> */}
       <Header />
 
       <main className="w-full pt-[60px] md:pt-[80px] font-light">

@@ -13,7 +13,7 @@ const Section3 = () => {
           <img
             alt=""
             src="/images/chick.jpg"
-            className="w-full md:w-1/2 max-w-[700px] h-auto rounded-xl"
+            className="w-full md:w-1/2 max-w-[700px] h-auto max-h-[400px] rounded-xl object-cover"
           />
 
           <div className="w-full">

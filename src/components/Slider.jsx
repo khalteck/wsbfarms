@@ -11,7 +11,7 @@ import { Autoplay, Navigation, Pagination, EffectFade } from "swiper/modules";
 const Slider = () => {
   const content = (
     <>
-      <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-t from-[#0f172a] to-[#0f172a]/20 px-3 pt-[100px] lg:px-[200px] lg:pt-[150px]">
+      <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-t from-[#0f172a] to-[#0f172a]/20 px-3 pt-[100px] md:pt-[10px] lg:px-[200px] lg:pt-[120px]">
         <div className="flex flex-col gap-3 sm:mt-[100px] lg:mt-0">
           <h1 className="text-[2rem] md:text-[3.5rem] font-bold text-white leading-tight">
             WELCOME TO
@@ -64,22 +64,22 @@ const Slider = () => {
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
       >
         <SwiperSlide>
-          <section className="w-full min-h-[400px] md:h-[60vh] bg-part bg-cover bg-center relative z-0">
+          <section className="w-full min-h-[400px] md:min-h-[450px] md:h-[60vh] bg-part bg-cover bg-center relative z-0">
             {content}
           </section>
         </SwiperSlide>
         <SwiperSlide>
-          <section className="w-full min-h-[400px] md:h-[60vh] bg-hero1 bg-cover bg-center relative z-0">
+          <section className="w-full min-h-[400px] md:min-h-[450px] md:h-[60vh] bg-hero1 bg-cover bg-center relative z-0">
             {content}
           </section>
         </SwiperSlide>
         <SwiperSlide>
-          <section className="w-full min-h-[400px] md:h-[60vh] bg-hero3 bg-cover bg-center relative z-0">
+          <section className="w-full min-h-[400px] md:min-h-[450px] md:h-[60vh] bg-hero3 bg-cover bg-center relative z-0">
             {content}
           </section>
         </SwiperSlide>
         {/* <SwiperSlide>
-          <section className="w-full min-h-[400px] md:h-[60vh] bg-hero4 bg-cover bg-center relative z-0">
+          <section className="w-full min-h-[400px] md:min-h-[450px] md:h-[60vh] bg-hero4 bg-cover bg-center relative z-0">
             {content}
           </section>
         </SwiperSlide> */}

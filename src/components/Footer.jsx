@@ -8,10 +8,14 @@ const Footer = () => {
       <div className="w-full mb-[60px] px-4 sm:px-[30px] lg:px-[80px] flex flex-col md:flex-row gap-8 justify-center">
         <ul className="w-[fit-content] md:w-[250px]">
           <li className="mb-4">
-            <div className="flex gap-2 items-center w-[150px] h-[60px] border-2 border-white">
+            {/* <div className="flex gap-2 items-center w-[150px] h-[60px] border-2 border-white">
               LOGO HERE
-            </div>
-            {/* <img alt="" src="/images/logo.png" className="w-[150px] h-auto" /> */}
+            </div> */}
+            <img
+              alt=""
+              src="/images/logo.png"
+              className="w-[50px] md:w-[70px] h-auto"
+            />
           </li>
           <li className="">WSBFARMS SLOGAN HERE...</li>
         </ul>
@@ -68,12 +72,12 @@ const Footer = () => {
 
         <ul className="w-full md:w-[250px] flex flex-col gap-3">
           <li className="w-[fit-content] font-bold">Contact Information</li>
-          <li className="w-[fit-content] cursor-pointer hover:text-green-500">
-            <a href="#">Tel: NUMBER HERE</a>
-          </li>
           {/* <li className="w-[fit-content] cursor-pointer hover:text-green-500">
-            <a href="tel:+36 20 351 0972">Mob: +36 20 351 0972</a>
+            <a href="#">Tel: NUMBER HERE</a>
           </li> */}
+          <li className="w-[fit-content] cursor-pointer hover:text-green-500">
+            <a href="tel:+234 808 505 0500">Mob: +234 808 505 0500</a>
+          </li>
           <li className="w-[fit-content] cursor-pointer hover:text-green-500">
             <a href="#">Email: EMAIL HERE</a>
           </li>
