@@ -14,10 +14,17 @@ const Section3 = () => {
             alt=""
             src="/images/chick.jpg"
             className="w-full md:w-1/2 max-w-[700px] h-auto max-h-[400px] rounded-xl object-cover"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="200"
           />
 
           <div className="w-full">
-            <p className="text-[1.25rem]">
+            <p
+              className="text-[1.25rem]"
+              data-aos="fade-up"
+              data-aos-duration="800"
+            >
               Practicing Agriculture in an excellent way with high sense of
               integrity and having great and immeasurable positive impacts on
               mankind globally through our wholesome products and quality
@@ -26,6 +33,9 @@ const Section3 = () => {
             </p>
 
             <button
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="200"
               onClick={() => {
                 const element = document.documentElement;
                 element.scrollIntoView({
