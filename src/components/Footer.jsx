@@ -17,7 +17,7 @@ const Footer = () => {
               className="w-[50px] md:w-[70px] h-auto"
             />
           </li>
-          <li className="">WSBFARMS SLOGAN HERE...</li>
+          {/* <li className="">WSBFARMS SLOGAN HERE...</li> */}
           <li className="mt-3">
             No. 3, Fatabete Village, Isokan Area, Lagelu Local Government,
             Ibadan
