@@ -3,10 +3,10 @@ const Sec2 = () => {
     <section className="w-full px-3 py-10 md:py-[80px] lg:px-[150px]">
       <div className="w-full flex gap-5 md:gap-10 md:flex-row flex-col mt-10 md:mt-[60px]">
         <div className="relative w-full">
-          <div className="bg-part w-[150px] h-[150px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-cover bg-center absolute top-3 md:left-10 z-[1]"></div>
-          <div className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px] absolute top-0 left-5 md:left-20 bg-green-500 rounded-full"></div>
+          <div className="bg-part w-[200px] h-[200px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px] rounded-full bg-cover bg-center absolute top-3 md:left-10 z-[1]"></div>
+          <div className="w-[200px] h-[200px] md:w-[200px] md:h-[200px] lg:w-[300px] lg:h-[300px] absolute top-0 left-5 md:left-20 bg-green-500 rounded-full"></div>
         </div>
-        <div className="w-full flex flex-col mt-40 md:mt-0">
+        <div className="w-full flex flex-col mt-52 md:mt-0">
           <h1 className="font-bold text-[1.5rem] md:text-[2rem]">About Us</h1>
           <p className="text-[1rem]">
             Wonderful Springboard Farms was birthed many years ago but started
