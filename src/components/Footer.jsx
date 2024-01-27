@@ -8,9 +8,6 @@ const Footer = () => {
       <div className="w-full mb-[60px] px-4 sm:px-[30px] lg:px-[80px] flex flex-col md:flex-row gap-8 justify-center">
         <ul className="w-[fit-content] md:w-[250px]">
           <li className="mb-4">
-            {/* <div className="flex gap-2 items-center w-[150px] h-[60px] border-2 border-white">
-              LOGO HERE
-            </div> */}
             <img
               alt=""
               src="/images/logo.png"
@@ -26,7 +23,7 @@ const Footer = () => {
 
         <ul className="w-full md:w-[250px] flex-col gap-3 md:hidden flex">
           <li className="w-[fit-content] font-bold">Socials</li>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://wa.link/i2yo3c" target="_blank" rel="noreferrer">
             <li className="w-[fit-content] cursor-pointer hover:text-green-500 flex gap-2 items-center">
               Whatsapp{" "}
               <img
@@ -36,7 +33,7 @@ const Footer = () => {
               />
             </li>
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
+          {/* <a href="#" target="_blank" rel="noreferrer">
             <li className="w-[fit-content] cursor-pointer hover:text-green-500 flex gap-2 items-center">
               Facebook{" "}
               <img
@@ -55,7 +52,7 @@ const Footer = () => {
                 className="w-4 h-4"
               />
             </li>
-          </a>
+          </a> */}
         </ul>
 
         <ul className="w-full md:w-[200px] flex flex-col gap-3">
@@ -74,17 +71,19 @@ const Footer = () => {
           </li>
         </ul>
 
-        <ul className="w-full md:w-[250px] flex flex-col gap-3">
+        <ul className="w-full md:w-[300px] flex flex-col gap-3">
           <li className="w-[fit-content] font-bold">Contact Information</li>
-          {/* <li className="w-[fit-content] cursor-pointer hover:text-green-500">
-            <a href="#">Tel: NUMBER HERE</a>
-          </li> */}
           <li className="w-[fit-content] cursor-pointer hover:text-green-500">
-            <a href="tel:+234 808 505 0500">Mob: +234 808 505 0500</a>
+            <a href="tel:+2348085050500">Mob: +234 808 505 0500</a>
           </li>
           <li className="w-[fit-content] cursor-pointer hover:text-green-500">
-            <a href="#">
-              Email: abiodun_abiola02@yahoo.com, wsbexcellence@gmail.com
+            <a href="mailto:abiodun_abiola02@yahoo.com,">
+              Email: abiodun_abiola02@yahoo.com
+            </a>
+          </li>
+          <li className="w-[fit-content] cursor-pointer hover:text-green-500">
+            <a href="mailto:wsbexcellence@gmail.com">
+              Email: wsbexcellence@gmail.com
             </a>
           </li>
           <li
@@ -97,7 +96,7 @@ const Footer = () => {
 
         <ul className="w-full md:w-[250px] flex-col gap-3 hidden md:flex">
           <li className="w-[fit-content] font-bold">Socials</li>
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://wa.link/i2yo3c" target="_blank" rel="noreferrer">
             <li className="w-[fit-content] cursor-pointer hover:text-green-500 flex gap-2 items-center">
               Whatsapp{" "}
               <img
@@ -107,7 +106,7 @@ const Footer = () => {
               />
             </li>
           </a>
-          <a href="#" target="_blank" rel="noreferrer">
+          {/* <a href="#" target="_blank" rel="noreferrer">
             <li className="w-[fit-content] cursor-pointer hover:text-green-500 flex gap-2 items-center">
               Facebook{" "}
               <img
@@ -126,7 +125,7 @@ const Footer = () => {
                 className="w-4 h-4"
               />
             </li>
-          </a>
+          </a> */}
         </ul>
       </div>
       <div className="w-full h-[80px] flex justify-center items-center border-t border-[#a359fb]/30 text-[.75rem]">

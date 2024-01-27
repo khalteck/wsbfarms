@@ -15,18 +15,24 @@ const Section4 = () => {
         <div className="w-full grid gap-5 md:gap-10 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10">
           <img
             alt=""
-            src="/images/poulty.jpg"
+            src="/images/img1.jpg"
             className="w-full h-auto rounded-xl"
+            data-aos="zoom-in"
+            data-aos-duration="800"
           />
           <img
             alt=""
             src="/images/chick.jpg"
             className="w-full h-auto rounded-xl"
+            data-aos="zoom-in"
+            data-aos-duration="800"
           />
           <img
             alt=""
-            src="/images/goat.jpg"
+            src="/images/img2.jpg"
             className="w-full h-auto rounded-xl"
+            data-aos="zoom-in"
+            data-aos-duration="800"
           />
         </div>
 

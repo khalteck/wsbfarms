@@ -13,7 +13,12 @@ const Section2 = () => {
         </h1>
         <div className="w-full flex gap-5 md:gap-10 md:flex-row flex-col-reverse mt-10 md:mt-[60px]">
           <div className="w-full">
-            <p className="text-[1.25rem]">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="200"
+              className="text-[1.25rem]"
+            >
               Wonderful Springboard Farms was birthed many years ago but started
               operations fully in the year 2002. Due to his passion for
               livestock farming, self-sustenance, entrepreneurship and making
@@ -49,6 +54,9 @@ const Section2 = () => {
             alt=""
             src="/images/poulty.jpg"
             className="w-full md:w-1/2 max-w-[700px] max-h-[400px] h-auto rounded-xl object-cover"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-delay="200"
           />
         </div>
       </div>

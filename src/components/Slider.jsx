@@ -13,10 +13,13 @@ const Slider = () => {
     <>
       <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-t from-[#0f172a] to-[#0f172a]/20 px-3 pt-[100px] md:pt-[10px] lg:px-[200px] lg:pt-[120px]">
         <div className="flex flex-col gap-3 sm:mt-[100px] lg:mt-0">
-          <h1 className="text-[2rem] md:text-[3.5rem] font-bold text-white leading-tight">
+          <h1 className="text-[2rem] md:text-[3.5rem] font-bold text-white leading-tight uppercase">
             WELCOME TO
             <br /> <span className="text-green-500"> WSBFARMS</span>
-            <br /> SLOGAN HERE..
+            <br />{" "}
+            <span className="text-[1.25rem] md:text-[2rem]">
+              Locally Sourced, Globally Recognized..
+            </span>
           </h1>
           <div className="flex gap-3 md:flex-row flex-col">
             <button
@@ -56,7 +59,7 @@ const Slider = () => {
         slidesPerView={1}
         navigation
         autoplay={{
-          delay: 4000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         effect="fade"
